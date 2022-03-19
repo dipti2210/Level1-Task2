@@ -1,0 +1,266 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar {
+    background-color: rgb(209, 202, 202);
+    width: 12vw;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100vh;
+}
+
+.sidebar nav {
+    padding: 20px;
+}
+
+.sidebar nav li {
+    list-style: none;
+    font-size: 25px;
+    padding: 33px 0;
+}
+
+.sidebar nav li a {
+    text-decoration: none;
+    color: black;
+}
+
+.main {
+    /*background-color: yellow;*/
+    width: 90vw;
+}
+
+.container {
+    display: flex;
+}
+
+.infoContainer {
+    /*background-color: rgb(255, 0, 234);*/
+    height: 58vh;
+    width: 80vw;
+    margin: 144px auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.devPic img {
+    height: 58vh;
+}
+
+.devInfo {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.hello {
+    font-size: 50px;
+}
+
+.name {
+    font-size: 45px;
+    font-weight: bold;
+}
+
+.about {
+    font-size: 30px;
+}
+
+.moreabout {
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 15px;
+}
+
+.buttons {
+    margin-top: 34px;
+}
+
+.buttons button {
+    padding: 9px 14px;
+    border-radius: 22px;
+    color: white;
+    background-color: dodgerblue;
+    font-weight: bold;
+    font-size: 21px;
+    margin: 0 3px;
+    cursor: pointer;
+}
+
+.buttons button:hover {
+    background-color: white;
+    color: dodgerblue;
+}
+
+.contactform {
+    padding: 34px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 144px;
+}
+
+.contactform h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 12px 0;
+}
+
+.contactform form div {
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.contactform form div input {
+    width: 26vw;
+    border-radius: 5px;
+    margin: 6px 0 0 0;
+    padding: 3px;
+}
+
+#emailHelp {
+    font-size: 11px;
+    color: midnightblue;
+    margin: 0 5px;
+    padding: 3px 0 0 0;
+}
+
+#form-check {
+    flex-direction: row;
+}
+
+#form-check input {
+    width: 24px;
+    margin: 3px 0;
+}
+
+#skills {
+    font-family: Arial, Helvetica, sans-serif;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background-color: #333;
+    height: 750px;
+}
+
+#skills h1 {
+    text-align: center;
+    margin-top: 10%;
+}
+
+#skills h3 {
+    margin: 5px;
+}
+
+.skill {
+    width: 550px;
+    margin: 60px auto;
+    color: #fff;
+    padding: 20px;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22));
+    margin-top: 10%;
+}
+
+.skill li {
+    margin: 20px 0;
+    padding: 10px;
+}
+
+.bar {
+    background-color: #353b48;
+    display: block;
+    height: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
+}
+
+.bar:hover {
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+.bar span {
+    height: 20px;
+    float: left;
+    background: linear-gradient(135deg, rgba(236, 0, 140, 1)0%, rgba(252, 103, 103, 1)100%);
+}
+
+.HTML {
+    width: 100%;
+    animation: HTML 3s;
+}
+
+.C {
+    width: 50%;
+    animation: C 3s;
+}
+
+.PYTHON {
+    width: 60%;
+    animation: PYTHON 3s;
+}
+
+.MATLAB {
+    width: 75%;
+    animation: MATLAB 3s;
+}
+
+.AUTOCAD {
+    width: 65%;
+    animation: AUTOCAD 3s;
+}
+
+@keyframes HTML {
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 100%;
+    }
+}
+
+@keyframes C {
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 90%;
+    }
+}
+
+@keyframes PYTHON {
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 60%;
+    }
+}
+
+@keyframes MATLAB {
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 75%;
+    }
+}
+
+@keyframes AUTOCAD {
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 65%;
+    }
+}
+
+.intro h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 12ox;
+}
+
+.intro p {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 12px;
+}
